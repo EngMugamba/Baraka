@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animal husbandry</title> 
+        <script>
+            function scrollPhotos(direction) {
+              const container = document.querySelector('.photo-container');
+              container.scrollBy({
+                left: direction * 100, // Adjust the scroll distance as needed
+                behavior: 'smooth' // Add smooth scrolling effect
+              });
+            }
+          </script>
+          
+          <style>
+            .photo-container {
+              display: flex;
+            }
+            
+            .photo {
+              width: 1800px;
+              height: 500px;
+            }
+            
+            .arrow-container {
+              display: flex;
+              justify-content: space-between;
+              margin-top: 10px;
+            }
+            
+            .arrow {
+              width: 30px;
+              height: 30px;
+              font-size: 20px;
+            }
+            header {
+background-color:green;
+padding: 20px;
+text-align: center;
+}
+.enroll-button{
+  background-image: linear-gradient(to right, #ff9999, #66b3ff);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+          </style>
+    </head>
+    <body>
+        <header style="color: white;">ANIMAL HUSBANDRY.</header>
+        <div style="width: 1800px; overflow-x: scroll;">
+            <div class="photo-container">
+              <img src="phtB34.jpg" alt="Photo 1" class="photo">
+              <img src="phtB35.jpg" alt="Photo 2" class="photo">
+              <img src="phtB36.jpg" alt="Photo 3" class="photo">
+              <img src="phtB37.jpg" alt="Photo 4" class="photo">
+            </div>
+            <div class="arrow-container">
+              <button class="arrow" onclick="scrollPhotos(-1)">&lt;</button>
+              <button class="arrow" onclick="scrollPhotos(1)">&gt;</button>
+            </div>
+          </div>
+          <body>
+            <h1>Animal Husbandry Course</h1>
+          
+            <h2>Course Overview</h2>
+            <p>This intensive course on animal husbandry provides in-depth knowledge and practical skills for managing and caring for various types of animals. Participants will learn about animal nutrition, breeding, health management, and farm practices.</p>
+          
+            <h2>Course Modules</h2>
+            <ul>
+              <li>Introduction to Animal Husbandry</li>
+              <li>Animal Nutrition and Feeding</li>
+              <li>Animal Breeding and Genetics</li>
+              <li>Animal Health and Disease Management</li>
+              <li>Farm Management and Practices</li>
+            </ul>
+          
+            <h2>Course Duration</h2>
+            <p>The course duration is 12 weeks, consisting of both theoretical lectures and practical hands-on sessions.</p>
+          
+            <h2>Prerequisites</h2>
+            <ul>
+              <li>Basic understanding of biology and animal science</li>
+              <li>Prior experience or knowledge in farming or animal care is beneficial</li>
+            </ul>
+          
+            <h2>Course Schedule</h2>
+            <table style="padding: 20px;">
+              <tr>
+                <th>Week</th>
+                <th>Topic</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Introduction to Animal Husbandry</td>
+              </tr>
+              <tr>
+                <td>2-3</td>
+                <td>Animal Nutrition and Feeding</td>
+              </tr>
+              <tr>
+                <td>4-5</td>
+                <td>Animal Breeding and Genetics</td>
+              </tr>
+              <tr>
+                <td>6-7</td>
+                <td>Animal Health and Disease Management</td>
+              </tr>
+              <tr>
+                <td>8-12</td>
+                <td>Farm Management and Practices</td>
+              </tr>
+            </table>
+            <div class="cta-container">
+              <a href="allForm.html"><button class="enroll-button">Enroll Now</button>
+            </div>
+            <br><br><br><br>
+
+
+
+            <footer>
+                <p>&copy; 2023 Baraka Agricultural College. All rights reserved.</p>
+                <P>Designed by Kelvin Mugamba.</P>
+                <a href="email" rel="mugambakelvin0@gmail.com">mugambakelvin0@gmail.com</a>
+              </footer>
+    </body>
+</html>

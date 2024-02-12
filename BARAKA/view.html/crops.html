@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crop production</title> 
+        
+          
+          <script>
+            function scrollPhotos(direction) {
+              const container = document.querySelector('.photo-container');
+              container.scrollBy({
+                left: direction * 100, // Adjust the scroll distance as needed
+                behavior: 'smooth' // Add smooth scrolling effect
+              });
+            }
+          </script>
+          
+          <style>
+            .photo-container {
+              display: flex;
+            }
+            
+            .photo {
+              width: 1800px;
+              height: 500px;
+            }
+            
+            .arrow-container {
+              display: flex;
+              justify-content: space-between;
+              margin-top: 10px;
+            }
+            
+            .arrow {
+              width: 30px;
+              height: 30px;
+              font-size: 20px;
+            }
+            header {
+background-color: green;
+padding: 20px;
+text-align: center;
+}
+ul li a:hover{
+    color: green;
+  }
+  .enroll-button{
+  background-image: linear-gradient(to right, #ff9999, #66b3ff);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+          </style>
+    </head>
+    <body>
+        <header style="color: white;">CROP PRODUCTION.</header>
+        <div style="width: 1800px; overflow-x: scroll;">
+            <div class="photo-container">
+              <img src="phtB29.jpg" alt="Photo 1" class="photo">
+              <img src="phtB30.jpg" alt="Photo 2" class="photo">
+              <img src="phtB31.jpg" alt="Photo 3" class="photo">
+              <img src="phtB32.jpg" alt="Photo 4" class="photo">
+            </div>
+            <div class="arrow-container">
+              <button class="arrow" onclick="scrollPhotos(-1)">&lt;</button>
+              <button class="arrow" onclick="scrollPhotos(1)">&gt;</button>
+            </div>
+          </div>
+          <div>
+            <br><br><br><br>
+            <h1>Crop Production Course</h1>
+            
+            <section>
+              <h2>Course Overview</h2>
+              <p>
+                The Crop Production Course provides comprehensive knowledge and practical skills in cultivating various crops. Students will learn about crop selection, soil preparation, planting techniques, pest management, irrigation, and harvesting methods.
+              </p>
+            </section>
+            
+            <section>
+              <h2>Course Modules</h2>
+              <ul>
+                <li>Introduction to Crop Production</li>
+                <li>Soil Science and Fertility</li>
+                <li>Plant Physiology</li>
+                <li>Seed Selection and Germination</li>
+                <li>Pest and Disease Management</li>
+                <li>Irrigation and Water Management</li>
+                <li>Harvesting and Post-Harvest Techniques</li>
+              </ul>
+            </section>
+            
+            <section>
+              <h2>Course Benefits</h2>
+              <ul>
+                <li>Develop a strong foundation in crop production techniques</li>
+                <li>Understand the principles of sustainable agriculture</li>
+                <li>Learn effective pest and disease management strategies</li>
+                <li>Gain hands-on experience through practical sessions</li>
+                <li>Enhance career prospects in the agriculture industry</li>
+              </ul>
+            </section>
+            
+            <section>
+              <h2>Course Duration and Prerequisites</h2>
+              <p>
+                The Crop Production Course is a 12-week program. There are no specific prerequisites for enrollment, making it suitable for beginners and professionals alike.
+              </p>
+            </section>
+          </div>
+          
+
+          <div class="cta-container">
+            <a href="allForm.html"><button class="enroll-button">Enroll Now</button></a>
+          </div>
+          <br><br><br><br>
+
+          <footer>
+            <p>&copy; 2023 Baraka Agricultural College. All rights reserved.</p>
+            <P>Designed by Kelvin Mugamba.</P>
+            <a href="email" rel="mugambakelvin0@gmail.com">mugambakelvin0@gmail.com</a>
+          </footer>
+
+    </body>
+</html>

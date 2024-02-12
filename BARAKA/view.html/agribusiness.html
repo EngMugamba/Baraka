@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>agribusiness Courses</title> 
+        <script>
+            function scrollPhotos(direction) {
+              const container = document.querySelector('.photo-container');
+              container.scrollBy({
+                left: direction * 100, // Adjust the scroll distance as needed
+                behavior: 'smooth' // Add smooth scrolling effect
+              });
+            }
+          </script>
+          
+          <style>
+            .photo-container {
+              display: flex;
+            }
+            
+            .photo {
+              width: 1800px;
+              height: 500px;
+            }
+            
+            .arrow-container {
+              display: flex;
+              justify-content: space-between;
+              margin-top: 10px;
+            }
+            
+            .arrow {
+              width: 30px;
+              height: 30px;
+              font-size: 20px;
+            }
+            body {
+font-family: sans-serif;
+}
+main {
+padding: 20px;
+}
+section {
+border: 1px solid #ccc;
+padding: 20px;
+margin-bottom: 20px;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th,
+td {
+border: 1px solid #ccc;
+padding: 5px;
+}
+header {
+background-color: green;
+padding: 20px;
+text-align: center;
+}
+.enroll-button{
+  background-image: linear-gradient(to right, #ff9999, #66b3ff);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+          </style>
+    </head>
+    <body>
+        <header style="color: white;">WELCOME TO AGRIBUSINESS COURSE</header>
+        <div style="width: 1800px; overflow-x: scroll;">
+            <div class="photo-container">
+              <img src="phtB12.jpg" alt="Photo 1" class="photo">
+              <img src="phtB26.jpg" alt="Photo 2" class="photo">
+              <img src="phtB27.jpg" alt="Photo 3" class="photo">
+              <img src="phtB28.jpg" alt="Photo 4" class="photo">
+            </div>
+            <div class="arrow-container">
+              <button class="arrow" onclick="scrollPhotos(-1)">&lt;</button>
+              <button class="arrow" onclick="scrollPhotos(1)">&gt;</button>
+            </div>
+          </div>
+          <main>
+          <section class="course-overview">
+            <h2>Course Overview</h2>
+            <p>Agribusiness is a broad term that encompasses the business of agriculture, including the production, processing, marketing, and distribution of food, fiber, and other agricultural products. This course will provide you with a comprehensive understanding of the agribusiness industry, from farm to fork.</p>
+            </section>
+            
+            <section class="course-modules">
+            <h2>Course Modules</h2>
+            <table>
+            <thead>
+            <tr>
+            <th>Module</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>Introduction to Agribusiness</td>
+            <td>This module will provide an overview of the agribusiness industry, including its history, structure, and global trends.</td>
+            </tr>
+            <tr>
+            <td>Agricultural Production</td>
+            <td>This module will cover the principles and practices of agricultural production, including crop and livestock management, sustainable agriculture, and agricultural technology.</td>
+            </tr>
+            <tr>
+            <td>Agricultural Processing</td>
+            <td>This module will discuss the various methods of processing agricultural products, from food preservation to biofuel production.</td>
+            </tr>
+            <tr>
+            <td>Agricultural Marketing</td>
+            <td>This module will explore the marketing of agricultural products, including market research, pricing strategies, and branding.</td>
+            </tr>
+            <tr>
+            <td>Agricultural Finance</td>
+            <td>This module will provide an introduction to agricultural finance, including financial management, risk assessment, and credit availability.</td>
+            </tr>
+            <tr>
+            <td>Agribusiness Law</td>
+            <td>This module will discuss the legal aspects of agribusiness, including contracts, intellectual property, and environmental regulations.</td>
+            </tr>
+            </tbody>
+            </table>
+            </section>
+            
+            <section class="course-benefits">
+            <h2>Course Benefits</h2>
+            <table>
+            <thead>
+            <tr>
+            <th>Benefit</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>Gain the knowledge and skills you need to start and run a successful agribusiness.</td>
+            <td>This course will provide you with the essential knowledge and skills you need to succeed in the agribusiness industry.</td>
+            </tr>
+            <tr>
+            <td>Learn about the latest trends and technologies in the agribusiness industry.</td>
+            <td>The agribusiness industry is constantly evolving, and this course will keep you up-to-date on the latest trends and technologies.</td>
+            </tr>
+            <tr>
+            <td>Develop a network of contacts in the agribusiness industry.</td>
+            <td>Networking is essential for success in any business, and this course will provide you with opportunities to connect with other professionals in the agribusiness industry.</td>
+            </tr>
+            <tr>
+            <td>Be prepared for a rewarding career in agribusiness.</td>
+            <td>Agribusiness is a growing industry with many opportunities for career advancement. This course will help you prepare for a rewarding career in this field.</td>
+            </tr>
+            </tbody>
+            </table>
+            </section>
+            
+            <section class="course-duration-and-prerequisite">
+            <h2>Course Duration and Prerequisite</h2>
+            <p>This course is a 12-week online course. There are no prerequisites for this course.</p>
+            </section>
+        </main>
+
+        <div class="cta-container">
+          <a href="allForm.html"> <button class="enroll-button">Enroll Now</button>
+        </div> 
+        <br><br><br><br>
+
+
+
+        
+        <footer>
+            <p>&copy; 2023 Baraka Agricultural College. All rights reserved.</p>
+            <P>Designed by Kelvin Mugamba.</P>
+            <a href="email" rel="mugambakelvin0@gmail.com">mugambakelvin0@gmail.com</a>
+          </footer>
+    </body>
+</html>
